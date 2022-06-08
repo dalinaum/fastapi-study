@@ -7,6 +7,6 @@ app = FastAPI()
 @app.get("/")
 async def entry(request: Request, short: bool):
     entry = {"short": short}
-    others = request.query_params
-    entry.update({"others": request.query_params})
+    others = request.query_params.items()
+    entry.update({"others": others})
     return entry

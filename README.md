@@ -2,10 +2,10 @@
 
 패키지 시스템으로는 [Poetry](https://python-poetry.org/)를 사용했습니다.
 
-다음과 같이 Poetry를 설치하고 의존성을 설치합니다.
+다음과 같이 Poetry를 설치하고 의존성을 설치합니다. 여러 방식으로 설치할 수 있지만 저는 [Homebrew](https://brew.sh/)를 이용하여 설치하였습니다.
 
 ```sh
-pip install poetry
+brew install poetry
 poetry install
 ```
 

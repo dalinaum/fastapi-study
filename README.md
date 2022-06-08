@@ -22,6 +22,8 @@ cd week1
 uvicorn homework:app --reload
 ```
 
+`homework:app` 대신 각 파일에 맞추어 `path_param:app` 등으로 변경해 수행합니다.
+
 ### 스터디
 
  * [Week 1](/week1)
